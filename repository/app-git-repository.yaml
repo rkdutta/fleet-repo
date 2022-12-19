@@ -7,5 +7,5 @@ spec:
   ref:
     branch: main
   secretRef:
-    name: flux-system
+    name: flux-system-app
   url: ssh://git@github.com/rkdutta/app-repo
