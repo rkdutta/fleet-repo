@@ -3,7 +3,6 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
   name: app-git-repository
-  namespace: management
 spec:
   interval: 1m0s
   ref:
@@ -16,7 +15,6 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
   name: tenant-git-repository
-  namespace: management
 spec:
   interval: 1m0s
   ref:
