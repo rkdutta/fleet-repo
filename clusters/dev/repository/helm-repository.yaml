@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: app-charts
-  namespace: flux-system
+  namespace: management
 spec:
   interval: 1m
   url: https://stefanprodan.github.io/podinfo
