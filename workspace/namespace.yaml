@@ -16,3 +16,51 @@ kind: Namespace
 metadata:
   name: prod
 spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-dev
+spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-acc
+spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-tst
+spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-prod
+spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-dev-kla
+spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-acc-kla
+spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-tst-kla
+spec: {}
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ccs-vp-prod-kla
+spec: {}
