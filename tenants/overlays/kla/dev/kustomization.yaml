@@ -1,7 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- commons.yaml
-- sync.yaml
+- ../../../base/
+# - commons.yaml
+# - sync.yaml
 
 namespace: dev
