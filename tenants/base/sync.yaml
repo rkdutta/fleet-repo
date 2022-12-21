@@ -2,7 +2,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: ks-tenant-dev-kla
+  name: ks-tenant-dev
 spec:
   interval: 5m0s
   path: ./tenants/kla/dev
@@ -14,4 +14,4 @@ spec:
   validation: client
   targetNamespace: dev
   dependsOn:
-    - name: tenant-kla-commons-dev
+    - name: tenant-commons-dev
