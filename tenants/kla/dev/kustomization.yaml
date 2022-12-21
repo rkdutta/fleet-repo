@@ -4,4 +4,4 @@ resources:
 - ../../base/commons.yaml
 - ../../base/sync.yaml
 namespace: dev
-nameSuffix: "-kla"
+#nameSuffix: "-kla"
