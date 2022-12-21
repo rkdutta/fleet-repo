@@ -4,4 +4,4 @@ resources:
 - commons.yaml
 - sync.yaml
 
-namespace: devc
+namespace: dev
