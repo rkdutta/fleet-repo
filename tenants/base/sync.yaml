@@ -5,13 +5,13 @@ metadata:
   name: tenant-sync
 spec:
   interval: 5m0s
-  path: ./tenants/kla/dev
+  path: ./tenants/kla/placeholder
   prune: true
   serviceAccountName: flux-reconciler
   sourceRef:
     kind: GitRepository
     name: tenant-git-repository
   validation: client
-  targetNamespace: dev
+  targetNamespace: placeholder
   dependsOn:
     - name: tenant-commons
