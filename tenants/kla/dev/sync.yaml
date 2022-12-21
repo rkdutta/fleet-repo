@@ -14,3 +14,5 @@ spec:
     name: tenant-git-repository
   validation: client
   targetNamespace: dev
+  dependsOn:
+    - name: tenant-kla-commons-dev
