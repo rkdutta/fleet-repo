@@ -9,7 +9,7 @@ patchesStrategicMerge:
     apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
     kind: Kustomization
     metadata:
-      name: tenant-sync
+      name: fleet-tenant-sync
     spec:
       path: ./tenants/kla/acc
       targetNamespace: acc
@@ -17,6 +17,6 @@ patchesStrategicMerge:
     apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
     kind: Kustomization
     metadata:
-      name: tenant-commons-sync
+      name: fleet-tenant-commons-sync
     spec:
       targetNamespace: acc
