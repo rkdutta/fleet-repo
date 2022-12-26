@@ -14,4 +14,4 @@ spec:
   validation: client
   targetNamespace: placeholder
   dependsOn:
-    - name: tenant-commons
+    - name: tenant-commons-sync
