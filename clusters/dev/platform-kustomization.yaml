@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./tenants/overlays/kla/acc
+  path: ./tenants/overlays/platform
   prune: true
   sourceRef:
     kind: GitRepository
