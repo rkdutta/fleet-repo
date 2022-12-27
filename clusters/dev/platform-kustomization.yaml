@@ -12,17 +12,17 @@ spec:
     name: platform-repo-auth
   url: ssh://git@github.com/rkdutta/platform-repo
 
-# ---  
-# apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
-# kind: Kustomization
-# metadata:
-#   name: fleet-platform-sync
-#   namespace: flux-system
-# spec:
-#   interval: 5m0s
-#   path: ./tenants/overlays/kla/acc
-#   prune: true
-#   sourceRef:
-#     kind: GitRepository
-#     name: platform-repo
-#   validation: client
+---  
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
+kind: Kustomization
+metadata:
+  name: fleet-platform-sync
+  namespace: flux-system
+spec:
+  interval: 5m0s
+  path: ./tenants/overlays/kla/acc
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: platform-repo
+  validation: client
