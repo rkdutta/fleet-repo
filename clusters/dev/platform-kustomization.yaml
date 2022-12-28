@@ -27,3 +27,4 @@ spec:
     name: platform-repo
   validation: client
   targetNamespace: platform
+  suspend: true
