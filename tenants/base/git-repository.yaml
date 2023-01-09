@@ -22,3 +22,27 @@ spec:
   secretRef:
     name: tenant-repo-auth
   url: ssh://git@github.com/rkdutta/tenant-repo
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: platform-git-repository
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  secretRef:
+    name: platform-repo-auth
+  url: ssh://git@github.com/rkdutta/platform-repo
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: config-git-repository
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  secretRef:
+    name: config-repo-auth
+  url: ssh://git@github.com/rkdutta/config-repo
