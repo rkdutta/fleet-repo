@@ -4,6 +4,6 @@ kind: Kustomization
 resources:
 - namespaces.yaml
 - ../../../base/
-- tenant-sync.yaml
+#- tenant-sync.yaml
 
 namespace: kla-tst
