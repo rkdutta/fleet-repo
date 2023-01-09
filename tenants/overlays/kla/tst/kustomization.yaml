@@ -4,6 +4,8 @@ kind: Kustomization
 resources:
 - namespaces.yaml
 - ../../../base/
-#- tenant-sync.yaml
+
+patchesStrategicMerge:
+- tenant-patch.yaml
 
 namespace: kla-tst

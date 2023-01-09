@@ -5,6 +5,7 @@ resources:
 - namespaces.yaml
 - ../../../base/
 
-namespace: kla-dev
 patchesStrategicMerge:
 - tenant-patch.yaml
+
+namespace: kla-dev
