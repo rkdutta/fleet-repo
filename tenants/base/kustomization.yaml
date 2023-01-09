@@ -5,3 +5,4 @@ resources:
 - helm-repository.yaml
 - networkpolicy.yaml
 - permission.yaml
+- tenant-sync.yaml
