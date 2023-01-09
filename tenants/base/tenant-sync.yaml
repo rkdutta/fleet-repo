@@ -2,7 +2,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: fleet-tenant-sync
+  name: fleet-tenant-app-sync
 spec:
   interval: 5m0s
   path: <change-it-with-patch>
