@@ -7,4 +7,4 @@ spec:
   path: ./deploy/tenants/dev
   sourceRef:
     kind: GitRepository
-    name: tenant-git-repository
+    name: tenant-kla-git-repository
