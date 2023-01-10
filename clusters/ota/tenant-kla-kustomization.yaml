@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./tenants/overlays/kla
+  path: ./tenants/overlays/tenant-kla
   prune: true
   sourceRef:
     kind: GitRepository

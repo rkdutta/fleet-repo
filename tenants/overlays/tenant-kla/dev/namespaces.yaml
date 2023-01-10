@@ -4,6 +4,6 @@ kind: Namespace
 metadata:
   labels:
     tenant: kla2
-    env: tst
-  name: kla2-tst
+    env: dev
+  name: tenant-kla-dev
 spec: {}

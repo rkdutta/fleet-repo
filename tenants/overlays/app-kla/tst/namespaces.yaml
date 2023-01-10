@@ -5,5 +5,5 @@ metadata:
   labels:
     tenant: kla
     env: tst
-  name: kla-tst
+  name: app-kla-tst
 spec: {}

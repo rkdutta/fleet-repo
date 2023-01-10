@@ -1,11 +1,11 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
 metadata:
-  name: fleet-tenant-kla2-syc
+  name: fleet-tenant-app-kla-syc
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./tenants/overlays/kla2
+  path: ./tenants/overlays/app-kla
   prune: true
   sourceRef:
     kind: GitRepository

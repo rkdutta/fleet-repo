@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Namespace
 metadata:
   labels:
-    tenant: kla
-    env: dev
-  name: kla-dev
+    tenant: kla2
+    env: tst
+  name: tenant-kla-tst
 spec: {}

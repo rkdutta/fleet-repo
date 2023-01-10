@@ -8,4 +8,4 @@ resources:
 patchesStrategicMerge:
 - tenant-patch.yaml
 
-namespace: kla-dev
+namespace: app-kla-dev
