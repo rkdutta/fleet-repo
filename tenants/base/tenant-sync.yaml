@@ -10,5 +10,5 @@ spec:
   serviceAccountName: flux-reconciler
   sourceRef:
     kind: GitRepository
-    name: app-git-repository
+    name: <change-it-with-patch>
   validation: client
