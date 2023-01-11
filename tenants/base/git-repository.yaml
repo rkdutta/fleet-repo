@@ -46,18 +46,6 @@ spec:
   secretRef:
     name: config-repo-auth
   url: ssh://git@github.com/rkdutta/config-repo
-#---
-# apiVersion: source.toolkit.fluxcd.io/v1beta2
-# kind: GitRepository
-# metadata:
-#   name: tenant-kla-git-repository
-# spec:
-#   interval: 1m0s
-#   ref:
-#     branch: main
-#   secretRef:
-#     name: tenant-kla-repo-auth
-#   url: ssh://git@github.com/rkdutta/tenant-kla-repo
 ---
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
